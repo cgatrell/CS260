@@ -1,8 +1,30 @@
-<!-- I can say body and make all of the bodies the same, or I can create classes and apply the colors to only the classes I want. -->
 
-body 
-{
-    background-color: gray;
+body {
+    background-color: grey;
+}
+
+
+section {
+    display: flex;
+}
+
+aside {
+    flex: 1
+}
+
+article {
+    flex: 4
+}
+
+.active {
+    float: left;
+    display: inline;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: lime;
 }
 
 h1.uppercase 
@@ -11,20 +33,27 @@ h1.uppercase
 }
 h1
 {
-    border-bottom-style:solid;
+    border-style:solid;
     border-color: Lime;
     color: Lime;
 }
 img
 {
-    max-width:25%;
-    max-height:25%;
+    max-width:35%;
+    max-height:35%;
+    padding: 80px;
 }
+
+.about {
+    color: aqua;
+}
+
 h2
 {
+    margin: 15px;
     color: Aqua;
-    border-left:solid;
-    border-right: solid;
+    border: 2px  solid aqua;
+    //border-right: solid;
     border-color: Aqua;
 }
 h2.capitalize
@@ -34,7 +63,29 @@ h2.capitalize
 
 p
 {
-    border: 2px solid Red;
-    border-radius: 7px;
-    text-color: Red;
+    color: Aqua;
+    
 }
+.menu{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whiteSmoke;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.listElements {
+    float: left;
+    display: inline;
+    display: block;
+    color: white;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
